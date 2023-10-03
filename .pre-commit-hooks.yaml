@@ -1,0 +1,39 @@
+- id: ament_black
+  name: ament_black
+  description: Check Python code style using black.
+  language: python
+  types: [python]
+  args: ["--reformat"]
+  entry: ament_black
+- id: ament_lint_cmake
+  name: ament_lint_cmake
+  description: Check CMake code style using cmakelint.
+  language: python
+  types: [cmake]
+  entry: ament_lint_cmake
+- id: ament_flake8
+  name: ament_flake8
+  description: Check Python code style using flake8.
+  language: python
+  types: [python]
+  args: ["."]
+  entry: ament_flake8
+- id: ament_pep257
+  name: ament_pep257
+  description: Check Python code style using pep257.
+  language: python
+  types: [python]
+  entry: ament_pep257
+- id: ament_uncrustify
+  name: ament_uncrustify
+  description: Code style checking using uncrustify.
+  language: python
+  types: [c++]
+  args: ["--reformat"]
+  entry: ament_uncrustify
+- id: ament_xmllint
+  name: ament_xmllint
+  description: Check XML markup using xmllint.
+  language: python
+  types: [xml]
+  entry: ament_xmllint

@@ -1,0 +1,30 @@
+[project]
+name = "ament_lint_hooks"
+description = "Out-of-the-box ament_lint hooks for pre-commit"
+version = "0.14.2"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Ignacio Vizzo", email = "ignacio@dexory.com"},
+]
+
+requires-python = ">=3.8"
+dependencies = [
+    "ament-black==0.14.2",
+    "ament-lint-cmake-py==0.14.2",
+    "ament-lint-flake8==0.14.4", # TODO(Nacho): Fix this .4 patch number
+    "ament-lint-pep257==0.14.3", # TODO(Nacho): Fix this .3 patch number
+    "ament-style-uncrustify==0.14.2",
+    "ament-xmllint==0.14.2",
+]
+
+classifiers  = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[project.urls]
+homepage = "https://github.com/nachovizzo/ament_lint_hooks"
