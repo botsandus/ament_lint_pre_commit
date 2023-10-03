@@ -1,3 +1,5 @@
+Transition repo until I found out what to do with the public upstream
+
 # ament_link pre-commit hooks
 
 Work in progress pacakge
