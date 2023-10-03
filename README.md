@@ -1,5 +1,3 @@
-Transition repo until I found out what to do with the public upstream
-
 # ament_link pre-commit hooks
 
 Work in progress pacakge
@@ -7,25 +5,37 @@ Work in progress pacakge
 ## Supported hooks
 
 - [x] ament_black
+- [x] ament_flake8
+- [x] ament_lint_cmake
+- [x] ament_pep257
+- [x] ament_uncrustify
+- [x] ament_xmllint
+
+## Unsupported hooks
+
+- [ ] ament_mypy
+- [ ] ament_pclint
+- [ ] ament_pycodestyle
+- [ ] ament_pyflakes
 - [ ] ament_clang_format
 - [ ] ament_clang_tidy
 - [ ] ament_copyright
 - [ ] ament_cppcheck
 - [ ] ament_cpplint
-- [x] ament_flake8
 - [ ] ament_lint
-- [x] ament_lint_cmake
-- [ ] ament_mypy
-- [ ] ament_pclint
-- [x] ament_pep257
-- [ ] ament_pycodestyle
-- [ ] ament_pyflakes
-- [x] ament_uncrustify
-- [x] ament_xmllint
 
-## Python Packages publsihed by this repository
+## Python Packages published by this repository
 
 - [x] ament-black
+
+## Deprecated Python Packages published by this repository
+
+Basing your pre-commit github actions on top of ros:$ROS_DISTRO-ros-base give
+you most of the ament linters, and therefore there is no need to mantain python
+packages. In the long run it might be a better idea to publish the packages on
+pypi and pythonize everything. But for now we rely on `system` hooks with the
+`ament-black` exception.
+
 - [x] ament-clang-tidy
 - [x] ament-lint
 - [x] ament-lint-cmake-py
@@ -35,11 +45,3 @@ Work in progress pacakge
 - [x] ament-pycodestyle
 - [x] ament-style-uncrustify
 - [x] ament-xmllint
-
-## TODO
-
-- [ ] Automate release of ament\_\* python packages
-- [ ] Automate tags of repository
-  - [ ] The tag in the pyproject.toml should be the one from the upstream (iron) for example
-  - [ ] This tag should be the same for all the dependencies
-  - [ ] Upon new changes, first all the python packages should be publsihed and then this repo hook should be tagged
