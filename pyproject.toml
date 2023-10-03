@@ -10,10 +10,10 @@ authors = [
 
 requires-python = ">=3.8"
 dependencies = [
-    "ament-black==0.14.3",
+    "ament-black==0.14.2",
     "ament-lint-cmake-py==0.14.2",
-    "ament-lint-flake8==0.14.4", # TODO(Nacho): Fix this .4 patch number
-    "ament-lint-pep257==0.14.3", # TODO(Nacho): Fix this .3 patch number
+    "ament-lint-flake8==0.14.2",
+    "ament-lint-pep257==0.14.2",
     "ament-style-uncrustify==0.14.2",
     "ament-xmllint==0.14.2",
 ]

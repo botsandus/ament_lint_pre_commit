@@ -38,7 +38,6 @@ Work in progress pacakge
 
 ## TODO
 
-- [ ] Fix release version madness at pypi! (flake8 linter already in 0.14.4 instead of 0.14.2, because of packaging errors)
 - [ ] Automate release of ament\_\* python packages
 - [ ] Automate tags of repository
   - [ ] The tag in the pyproject.toml should be the one from the upstream (iron) for example
