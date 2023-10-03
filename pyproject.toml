@@ -1,21 +1,16 @@
 [project]
 name = "ament_lint_hooks"
 description = "Out-of-the-box ament_lint hooks for pre-commit"
-version = "0.0.1"
+version = "0.0.3"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
   {name = "Ignacio Vizzo", email = "ignacio@dexory.com"},
 ]
 
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = [
     "ament-black==0.14.2",
-    "ament-lint-cmake-py==0.14.2",
-    "ament-lint-flake8==0.14.2",
-    "ament-lint-pep257==0.14.2",
-    "ament-style-uncrustify==0.14.2",
-    "ament-xmllint==0.14.2",
 ]
 
 classifiers  = [

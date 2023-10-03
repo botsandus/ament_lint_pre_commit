@@ -8,32 +8,32 @@
 - id: ament_lint_cmake
   name: ament_lint_cmake
   description: Check CMake code style using cmakelint.
-  language: python
+  language: system
   types: [cmake]
   entry: ament_lint_cmake
 - id: ament_flake8
   name: ament_flake8
   description: Check Python code style using flake8.
-  language: python
+  language: system
   types: [python]
   args: ["."]
   entry: ament_flake8
 - id: ament_pep257
   name: ament_pep257
   description: Check Python code style using pep257.
-  language: python
+  language: system
   types: [python]
   entry: ament_pep257
 - id: ament_uncrustify
   name: ament_uncrustify
   description: Code style checking using uncrustify.
-  language: python
+  language: system
   types: [c++]
   args: ["--reformat"]
   entry: ament_uncrustify
 - id: ament_xmllint
   name: ament_xmllint
   description: Check XML markup using xmllint.
-  language: python
+  language: system
   types: [xml]
   entry: ament_xmllint
