@@ -30,6 +30,7 @@ just rely on pure python packages so the `pre-commit` hook can be run on any
 non-ros environment.
 
 - [x] ament_black
+- [x] ament_cpplint
 - [x] ament_flake8
 - [x] ament_lint_cmake
 - [x] ament_pep257
@@ -38,8 +39,9 @@ non-ros environment.
 
 ## Unsupported hooks
 
-The fact that are unspotted does not mean that they don't work, it only means
-I haven't tested it so far.
+The fact that are unspotted does not mean that they don't work, it only means I
+haven't tested it so far and therefore are not part of the
+[.pre-commit-hooks.yaml](./.pre-commit-hooks.yaml) config.
 
 - [ ] ament_mypy
 - [ ] ament_pclint
@@ -49,5 +51,4 @@ I haven't tested it so far.
 - [ ] ament_clang_tidy
 - [ ] ament_copyright
 - [ ] ament_cppcheck
-- [ ] ament_cpplint
 - [ ] ament_lint
