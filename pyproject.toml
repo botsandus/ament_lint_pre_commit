@@ -1,5 +1,5 @@
 [project]
-name = "ament_lint_hooks"
+name = "ament_lint_pre_commit"
 description = "Out-of-the-box ament_lint hooks for pre-commit"
 version = "0.0.4"
 readme = "README.md"
@@ -22,4 +22,4 @@ classifiers  = [
 ]
 
 [project.urls]
-homepage = "https://github.com/nachovizzo/ament_lint_hooks"
+homepage = "https://github.com/nachovizzo/ament_lint_pre_commit"

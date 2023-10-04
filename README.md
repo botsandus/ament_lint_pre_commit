@@ -13,7 +13,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with: { python-version: "3.10" }
-      - uses: nachovizzo/ament_lint_hooks@v0.0.5
+      - uses: nachovizzo/ament_lint_pre_commit@v0.0.5
 ```
 
 ## Supported hooks
