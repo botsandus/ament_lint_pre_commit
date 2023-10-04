@@ -11,6 +11,13 @@
   language: system
   types: [cmake]
   entry: ament_lint_cmake
+- id: ament_cpplint
+  name: ament_cpplint
+  description: Code style checking using cpplint.
+  language: system
+  types: [c++]
+  args: ["--reformat"]
+  entry: ament_uncrustify
 - id: ament_flake8
   name: ament_flake8
   description: Check Python code style using flake8.
