@@ -17,7 +17,7 @@
   language: system
   types: [c++]
   args: ["--reformat"]
-  entry: ament_uncrustify
+  entry: ament_cpplint
 - id: ament_flake8
   name: ament_flake8
   description: Check Python code style using flake8.
