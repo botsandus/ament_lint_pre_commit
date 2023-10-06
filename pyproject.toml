@@ -1,7 +1,7 @@
 [project]
 name = "ament_lint_pre_commit"
 description = "Out-of-the-box ament_lint hooks for pre-commit"
-version = "0.0.7"
+version = "0.0.8"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
