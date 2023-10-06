@@ -16,7 +16,6 @@
   description: Code style checking using cpplint.
   language: system
   types: [c++]
-  args: ["--reformat"]
   entry: ament_cpplint
 - id: ament_flake8
   name: ament_flake8
