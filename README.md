@@ -40,7 +40,8 @@ future, it would be ideal to just rely on pure python packages so the
 
 (\*): [ament-black](https://github.com/nachovizzo/ament_black) managed by
 @nachovizzo, automatic pypi.org releases on tag pushes
-(\*): [ament-clang-format](https://github.com/nachovizzo/ament_black) managed by
+(\*): ament-clang-format: is not available yet on pypi but it's available
+inside a ament_ friendly environment such as ROS 2
 
 ## Unsupported hooks
 
