@@ -37,6 +37,13 @@
   types: [c++]
   args: ["--reformat"]
   entry: ament_uncrustify
+- id: ament_clang_format
+  name: ament_clang_format
+  description: Code style checking using clang_format.
+  language: python
+  types: [c++]
+  args: ["--reformat"]
+  entry: ament_clang_format
 - id: ament_xmllint
   name: ament_xmllint
   description: Check XML markup using xmllint.
