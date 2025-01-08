@@ -8,10 +8,9 @@ authors = [
   {name = "Ignacio Vizzo", email = "ignacio@dexory.com"},
 ]
 
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 dependencies = [
-    "ament-black==0.2.6",
-    "uvloop==0.21.0",    
+  { git = "https://github.com/botsandus/ament_black.git", subdirectory = "ament_black", branch = "noble_fix" },
 ]
 
 classifiers  = [
