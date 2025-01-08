@@ -1,7 +1,7 @@
 [project]
 name = "ament_lint_pre_commit"
 description = "Out-of-the-box ament_lint hooks for pre-commit"
-version = "0.0.9"
+version = "0.0.11"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
@@ -10,7 +10,7 @@ authors = [
 
 requires-python = ">=3.10"
 dependencies = [
-    "ament-black==0.2.6",
+  "ament-black @ git+https://github.com/botsandus/ament_black.git@noble_fix#subdirectory=ament_black"
 ]
 
 classifiers  = [
