@@ -10,7 +10,7 @@ authors = [
 
 requires-python = ">=3.12"
 dependencies = [
-    "ament-black==0.2.6",
+    "ament-black",
 ]
 
 classifiers  = [
