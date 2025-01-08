@@ -8,7 +8,7 @@ authors = [
   {name = "Ignacio Vizzo", email = "ignacio@dexory.com"},
 ]
 
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "ament-black==0.2.6",
 ]
