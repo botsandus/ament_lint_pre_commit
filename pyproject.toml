@@ -10,7 +10,7 @@ authors = [
 
 requires-python = ">=3.10"
 dependencies = [
-  { git = "https://github.com/botsandus/ament_black.git", subdirectory = "ament_black", branch = "noble_fix" },
+  "git+https://github.com/botsandus/ament_black.git@noble_fix#subdirectory=ament_black"
 ]
 
 classifiers  = [
