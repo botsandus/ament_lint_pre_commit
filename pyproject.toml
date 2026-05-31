@@ -1,7 +1,7 @@
 [project]
 name = "ament_lint_pre_commit"
 description = "Out-of-the-box ament_lint hooks for pre-commit"
-version = "0.0.11"
+version = "0.0.12"
 readme = "README.md"
 license = {file = "LICENSE"}
 authors = [
@@ -9,8 +9,14 @@ authors = [
 ]
 
 requires-python = ">=3.10"
+# Pinned to the botsandus/ament_black#18 head commit (Python 3.14 + black >= 26.3.0
+# fix: maybe_use_uvloop import fallback, and black/uvloop unpinned in setup.py).
+# The previous @noble_fix branch pinned black==21.12b0 + uvloop==0.17.0 (no py3.14
+# wheels) and still imported the removed black.concurrency.maybe_install_uvloop.
+# TODO: repoint to @v0.2.7 (or @main) once #18 merges and 0.2.7 is released.
+# https://github.com/botsandus/ament_black/pull/18
 dependencies = [
-  "ament-black @ git+https://github.com/botsandus/ament_black.git@noble_fix#subdirectory=ament_black"
+  "ament-black @ git+https://github.com/botsandus/ament_black.git@4a527225e68dcbffe1c97afb38f4a69962aa7030#subdirectory=ament_black"
 ]
 
 classifiers  = [
